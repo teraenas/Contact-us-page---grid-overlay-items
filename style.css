@@ -29,7 +29,7 @@ button {
 .container {
   display: grid;
   grid-template-columns: auto max-content 4rem max-content auto;
-  grid-template-rows: 7% fit-content 10%;
+  grid-template-rows: 7% auto 10%;
   width: max(40rem, 85%);
   height: 82vh;
 }
@@ -101,7 +101,7 @@ button {
   border-bottom: 2px solid rgb(211, 82, 82);
 }
 
-.contact__BTNsubmit {
+.contact__button-submit {
   width: 7rem;
   height: 2.2rem;
   appearance: none;
@@ -113,7 +113,7 @@ button {
   transition: transform 125ms ease-in-out;
 }
 
-.contact__BTNsubmit:hover {
+.contact__button-submit:hover {
   transform: scale(1.125);
   background-color: white;
   border: 2px solid var(--clr-very-dark-bluish-grey);
